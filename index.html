@@ -1,0 +1,73 @@
+<link href="normalize.css" rel="stylesheet" type="text/css"/>
+<link href="styles.css" rel="stylesheet" type="text/css"/>
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- SEO -->
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="author" content="Jemar Medina">
+
+        <title>Rock Paper Scissors Game</title>
+    </head>
+
+    <body>
+
+        <!-- Header -->
+        <header>
+            <h1>Rock Paper Scissors</h1>
+        </header>
+
+        <!-- Main -->
+
+        <main>
+
+            <!-- Score Board -->
+
+            <div class="score-board">
+
+                <div id="comp-label" class="badge">comp</div>
+                <div id="user-label" class="badge">user</div>
+                <span id="user-score">0</span>:<span id="comp-score">0</span>
+
+            </div>
+
+            <!-- Results -->
+
+            <div class="result">
+                <p>Click on your choice.</p>
+            </div>
+
+            <!-- Choices -->
+
+            <div class="choices">
+
+                <div id="rock" class="choice">
+                    <img src="https://img.icons8.com/color/100/000000/hand-rock.png" alt="">
+                </div>
+
+                <div id="paper" class="choice">
+                    <img src="https://img.icons8.com/color/95/000000/hand.png" alt="">
+                </div>
+
+                <div id="scissors" class="choice">
+                    <img src="https://img.icons8.com/color/100/000000/hand-scissors.png" alt="">
+                </div>
+
+            </div>
+
+            <!-- Message -->
+
+            <p id="message">Make your move!</p>
+
+        </main>
+
+        <!-- Javascript -->
+        <script src="app.js" charste="utf-8"></script>
+    </body>
+</html>
